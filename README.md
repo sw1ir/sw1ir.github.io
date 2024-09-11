@@ -1,1 +1,1 @@
-permalink: /index.html
+permalink: chota/pages/index.html
