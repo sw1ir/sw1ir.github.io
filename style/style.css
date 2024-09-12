@@ -81,7 +81,7 @@
 
 @media (min-width: 300px) and (max-width: 1200px) {
 .start {
-    background: url('/src/1.gif') no-repeat center center; 
+    background: url('/src/maxresdefault.jpg') no-repeat center center; 
     background-size: cover; 
     height: 300px; 
     color: white;
@@ -89,7 +89,7 @@
     flex-direction: column; /* Позволяет размещать элементы вертикально */
     text-align: center; /* Исправлено: должно быть text-align, а не Text-align */
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 15pt; /* Исправлено: используйте font-size вместо font */
+    font-size: 30pt; /* Исправлено: используйте font-size вместо font */
     align-items: center; /* Центрируем по горизонтали */
     margin-bottom: 50px;
 }
