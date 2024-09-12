@@ -79,7 +79,7 @@
     margin: 0 auto; 
     }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 1200px) {
 .start {
     background: url('/chota/src/1.gif') no-repeat center center; 
     background-size: cover; 
