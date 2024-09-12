@@ -156,12 +156,6 @@
 	.category-wrap {
 		display: none;
 	}
-	.nav {
-    		position: sticky; /* Делаем навигацию фиксированной */
-    		top: 0; /* Положение сверху */
-    		background-color: white; /* Цвет фона для видимости */
-    		z-index: 1000; /* Убедитесь, что навигация выше других элементов */
-	     }
 }
 @media (min-width: 100px) and (max-width: 300px) {
 .p_text{
