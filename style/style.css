@@ -95,17 +95,18 @@
 }
 .pochemy{
 	
-	margin-right: auto;
-	width: 80vw;
+	
+	width: 75vw;
     height: auto; 
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 40pt; 
     margin-bottom: 50px;
+    margin-left: auto;
 }
 .category-wrap {
     margin-right: auto; 
     margin-left: auto;
-    width: 20vw; 
+    width: 15vw; 
     border: 2px 
     box-shadow: 2px 2px 8px #393131;}
 
@@ -114,13 +115,13 @@
     top: 20px; /* Расстояние от верхней части окна */
     margin-right: auto; 
     margin-left: auto;
-    width: 20vw; 
+    width: 15vw; 
     border: 2px  #666;
 
     background-color: white;
 }
 .category-wrap li {
-    margin: 12px 0 0 0px;}
+    margin: 6px 0 0 0px;}
 .category-wrap a {  
     text-decoration: none;
     display: block; 
@@ -129,6 +130,14 @@
     padding: 5px;}
 .category-wrap a:hover { background: green; 
     color: white;}
+.pervoe_mesto{
+	width: 75vw;
+	margin-left: auto;
+	border: 3px solid black;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;
+}
 
 }
 .dp_text{
