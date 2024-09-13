@@ -1,5 +1,5 @@
 .start {
-    background: url('/src/maxresdefault.jpg') no-repeat center center; 
+    background: url('../src/maxresdefault.jpg') no-repeat center center; 
     background-size: cover; 
     height: 300px; 
     color: white;
@@ -12,23 +12,23 @@
     margin-bottom: 50px;
 }
 .pochemy{
-	
-	margin-right: auto;
-	width: 60vw;
+    
+    margin-right: auto;
+    width: 60vw;
     height: auto; 
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 40pt; 
     margin-bottom: 50px;
 }
 .p_text{
-	font-family: Arial, cursive;
+    font-family: Arial, cursive;
     font-size: 18pt; 
 }
 .col{
-	flex-direction: column;
-	border: 2px solid black;
-	display: flex;
-	text-align: center;
+    flex-direction: column;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
 }
 .category-wrap {
     margin-right: auto; 
@@ -59,15 +59,15 @@
     color: white;}
 
 .pervoe_mesto{
-	width: 60vw;
-	margin-right: auto;
-	border: 3px solid black;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 10px;
+    width: 60vw;
+    margin-right: auto;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
 }
 .mesto_text{
-	font-family: Arial, cursive;
+    font-family: Arial, cursive;
     font-size: 40pt; /* Исправлено: используйте font-size вместо font */
     color: #ff0000;
     text-align: center;
@@ -79,9 +79,9 @@
     margin: 0 auto; 
     }
 
-@media (min-width: 300px) and (max-width: 1200px) {
+@media (min-width: 200px) and (max-width: 1200px) {
 .start {
-    background: url('/src/maxresdefault.jpg') no-repeat center center; 
+    background: url('../src/maxresdefault.jpg') no-repeat center center; 
     background-size: cover; 
     height: 300px; 
     color: white;
@@ -89,14 +89,14 @@
     flex-direction: column; /* Позволяет размещать элементы вертикально */
     text-align: center; /* Исправлено: должно быть text-align, а не Text-align */
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 30pt; /* Исправлено: используйте font-size вместо font */
+    font-size: 25pt; /* Исправлено: используйте font-size вместо font */
     align-items: center; /* Центрируем по горизонтали */
     margin-bottom: 50px;
 }
 .pochemy{
-	
-	
-	width: 75vw;
+    
+    
+    width: 75vw;
     height: auto; 
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 40pt; 
@@ -131,41 +131,164 @@
 .category-wrap a:hover { background: green; 
     color: white;}
 .pervoe_mesto{
-	width: 75vw;
-	margin-left: auto;
-	border: 3px solid black;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 10px;
+    width: 75vw;
+    margin-left: auto;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.dopolnetelno{
+    width: 75vw;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 }
 .dp_text{
-	text-align: center;
-	font-family: Arial, cursive;
+    text-align: center;
+    font-family: Arial, cursive;
     font-size: 22pt; 
 }
 .dopolnetelno{
-	width: 60vw;
-	margin-right: auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 10px;
+    width: 60vw;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
 }
-@media (min-width: 100px) and (max-width: 599px) {
-	.category-wrap {
-		display: none;
-	}
+
+@media (min-width: 100px) and (max-width: 750px) {
+    .dopolnetelno{
+        display: none;
+    }
+    .dopolnetelno2{
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    }
+}
+@media (min-width: 751px){
+    .dopolnetelno2{
+        display: none;
+    }
 }
 @media (min-width: 100px) and (max-width: 300px) {
 .p_text{
-	font-family: Arial, cursive;
-    	font-size: 10pt; 
+    font-family: Arial, cursive;
+        font-size: 10pt; 
 }
 }
-@media (min-width: 301px) and (max-width: 599px) {
+@media (min-width: 301px) and (max-width: 750px) {
 .p_text{
-	font-family: Arial, cursive;
-    	font-size: 14pt; 
+    font-family: Arial, cursive;
+        font-size: 14pt; 
 }
 }
+.btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 80px;
+    line-height: 20px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #F082AC;
+}
+}
+label {cursor: pointer;}
+ul {list-style: none;}
+.list {display: none;}
+.checkbox {display: none;}
+
+.checkbox:checked ~ .list {
+  display: block;
+}
+   @media (min-width: 100px) and (max-width: 750px) {
+       nav.nav {
+           display: none;
+       } 
+   }
+ @media (min-width: 751px)  {
+    .header{
+        display: none;
+    }
+ }
+@media (min-width: 100px) and (max-width: 750px) {
+    .category-wrap {
+        display: none;
+    }
+@media (min-width: 100px) and (max-width: 750px) {
+    table {
+        font-size: 10px;
+    }
+}
+@media (min-width: 100px) and (max-width: 750px) {
+    .col-2 {
+        display: none;
+    }
+     .col-10 {
+        width: 95%; /* Или 100vw, если нужно */
+    }
+    .pochemy{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pervoe_mesto{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .dopolnetelno2{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+        .video-container {
+            max-width: 900px; /* Максимальная ширина контейнера */
+            width: 100%; /* Ширина контейнера 100% до 750px */
+            height: auto; /* Авто высота для сохранения пропорций */
+        }
+
+        iframe {
+            width: 100%; /* Ширина iframe 100% от родительского контейнера */
+            height: 405px; /* Фиксированная высота для адаптивного видео */
+            border: none; /* Убираем рамку */
+        }
+        
+        @media (min-width: 901px) {
+            iframe {
+                width: 750px; /* Фиксированная ширина при ширине экрана больше 750px */
+                height: 422px; /* Высота, пропорциональная ширине 750px (16:9) */
+            }
+        } 
