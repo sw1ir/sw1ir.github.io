@@ -4,19 +4,21 @@
     height: 300px; 
     color: white;
     display: flex;
-    flex-direction: column; /* Позволяет размещать элементы вертикально */
-    text-align: center; /* Исправлено: должно быть text-align, а не Text-align */
+    flex-direction: column; 
+    text-align: center; 
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 40pt; /* Исправлено: используйте font-size вместо font */
-    align-items: center; /* Центрируем по горизонтали */
+    font-size: 40pt; 
+    align-items: center; 
     margin-bottom: 50px;
 }
+
+
 .pochemy{
     
     margin-right: auto;
     width: 60vw;
     height: auto; 
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: Arial, cursive;
     font-size: 40pt; 
     margin-bottom: 50px;
 }
@@ -39,7 +41,7 @@
 
 .category-wrap {
     position: sticky;
-    top: 20px; /* Расстояние от верхней части окна */
+    top: 20px; 
     margin-right: auto; 
     margin-left: auto;
     width: 150px; 
@@ -68,13 +70,13 @@
 }
 .mesto_text{
     font-family: Arial, cursive;
-    font-size: 40pt; /* Исправлено: используйте font-size вместо font */
+    font-size: 40pt;
     color: #ff0000;
     text-align: center;
 }
 .img {
-    max-width: 100%; /* Ограничивает ширину изображения */
-    height: auto; /* Сохраняет пропорции */
+    max-width: 100%;
+    height: auto; 
     display: block;
     margin: 0 auto; 
     }
@@ -86,11 +88,11 @@
     height: 300px; 
     color: white;
     display: flex;
-    flex-direction: column; /* Позволяет размещать элементы вертикально */
-    text-align: center; /* Исправлено: должно быть text-align, а не Text-align */
+    flex-direction: column;
+    text-align: center; 
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 25pt; /* Исправлено: используйте font-size вместо font */
-    align-items: center; /* Центрируем по горизонтали */
+    font-size: 25pt; 
+    align-items: center;
     margin-bottom: 50px;
 }
 .pochemy{
@@ -112,7 +114,7 @@
 
 .category-wrap {
     position: sticky;
-    top: 20px; /* Расстояние от верхней части окна */
+    top: 20px; 
     margin-right: auto; 
     margin-left: auto;
     width: 15vw; 
@@ -245,14 +247,10 @@ ul {list-style: none;}
     .category-wrap {
         display: none;
     }
-@media (min-width: 300px) and (max-width: 750px) {
+}
+@media (min-width: 100px) and (max-width: 750px) {
     table {
         font-size: 10px;
-    }
-}
-@media (min-width: 100px) and (max-width: 299px) {
-    table {
-        font-size: 8px;
     }
 }
 @media (min-width: 100px) and (max-width: 750px) {
@@ -260,7 +258,7 @@ ul {list-style: none;}
         display: none;
     }
      .col-10 {
-        width: 95%; /* Или 100vw, если нужно */
+        width: 95%;
     }
     .pochemy{
         width: 95%;
@@ -279,21 +277,45 @@ ul {list-style: none;}
         margin-right: auto;
     }
 }
-        .video-container {
-            max-width: 900px; /* Максимальная ширина контейнера */
-            width: 100%; /* Ширина контейнера 100% до 750px */
-            height: auto; /* Авто высота для сохранения пропорций */
-        }
+.video-container {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+}
 
-        iframe {
-            width: 100%; /* Ширина iframe 100% от родительского контейнера */
-            height: 405px; /* Фиксированная высота для адаптивного видео */
-            border: none; /* Убираем рамку */
-        }
+iframe {
+    width: 100%;
+    height: 405px;
+    border: none;
+}
         
-        @media (min-width: 901px) {
-            iframe {
-                width: 750px; /* Фиксированная ширина при ширине экрана больше 750px */
-                height: 422px; /* Высота, пропорциональная ширине 750px (16:9) */
-            }
-        } 
+@media (min-width: 901px) {
+    iframe {
+    width: 750px;
+    height: 422px;
+    display: block;
+    margin: auto;
+}
+.video-container {
+    width: 60vw;
+    height: auto;
+} 
+}
+.ustart{
+    background: url('../src/browserstack.jpg') no-repeat center center; 
+    background-size: cover; 
+    height: 300px; 
+    margin-bottom: 50px;
+}
+@media (min-width: 100px) and (max-width: 877px) {
+.ustart{
+    background: url('../src/BrowserStack.png') no-repeat center center; 
+    background-size: cover; 
+    height: 300px; 
+    margin-bottom: 50px;
+}
+}
+th{
+    text-align: center ;
+}
+
