@@ -44,6 +44,7 @@
 }
 .col{
     flex-direction: column;
+    border: 2px solid;
     display: flex;
     text-align: center;
 }
