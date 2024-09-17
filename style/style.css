@@ -378,6 +378,7 @@ th{
 }
 .no-center {
     text-align: left;
+    border: 0px 
 }
 .checkmark {
     list-style-type: none; /* Убираем стандартные маркеры */
@@ -391,3 +392,16 @@ th{
     position: absolute; /* Позиционирование */
     left: 0; /* Сдвиг влево */
 }
+
+.yyystart{
+   background: url('../src/CSSPeeper.png') no-repeat center center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff; 
+    height: 300px; 
+    margin-bottom: 50px; 
+}
+table {
+        font-size: 14pt;
+    }
