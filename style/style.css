@@ -11,10 +11,26 @@
     align-items: center; 
     margin-bottom: 50px;
 }
-
-
+.skip{
+    height: 2px;
+    background-color: blue;
+    width: 50%;
+}
+.vajnoe{
+            height: 5px;
+            background-color:rgb(105 224 117);
+        }
 .pochemy{
     
+    margin-right: auto;
+    width: 60vw;
+    height: auto; 
+    font-family: Arial, cursive;
+    font-size: 40pt; 
+    margin-bottom: 50px;
+}
+.pochemy_gray{
+    background-color: #f6f6f1;
     margin-right: auto;
     width: 60vw;
     height: auto; 
@@ -28,7 +44,6 @@
 }
 .col{
     flex-direction: column;
-    border: 2px solid black;
     display: flex;
     text-align: center;
 }
@@ -96,8 +111,15 @@
     margin-bottom: 50px;
 }
 .pochemy{
-    
-    
+    width: 75vw;
+    height: auto; 
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 40pt; 
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+.pochemy_gray{
+    background-color: #f6f6f1;
     width: 75vw;
     height: auto; 
     font-family: Brush Script MT, Brush Script Std, cursive;
@@ -224,7 +246,6 @@
 .btn:focus {
   background-color: #F082AC;
 }
-}
 label {cursor: pointer;}
 ul {list-style: none;}
 .list {display: none;}
@@ -233,12 +254,12 @@ ul {list-style: none;}
 .checkbox:checked ~ .list {
   display: block;
 }
-   @media (min-width: 100px) and (max-width: 750px) {
+   @media (min-width: 100px) and (max-width: 770px) {
        nav.nav {
            display: none;
        } 
    }
- @media (min-width: 751px)  {
+ @media (min-width: 771px)  {
     .header{
         display: none;
     }
@@ -318,4 +339,54 @@ iframe {
 th{
     text-align: center ;
 }
+.img1{
+  height: 50px;
+  width: 50px;
+}
+.img2{
+  height: 50px;
+  width: 50px;
+}
+.img3{
+  height: 50px;
+  width: 50px;
+}
+.sd{
+    background: #e341ff;
+}
+.gstart{
+    background: url('../src/lhl.png') no-repeat center center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white; 
+    height: 300px; 
+    margin-bottom: 50px;
+}
+.ggstart{
+    background: url('../src/Colorzilla-Photoroom.png') no-repeat center center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF; 
+    height: 300px; 
+    margin-bottom: 50px;
+}
+.li_text{
+    font-size: 14pt;
+}
+.no-center {
+    text-align: left;
+}
+.checkmark {
+    list-style-type: none; /* Убираем стандартные маркеры */
+    position: relative; /* Для позиционирования псевдоэлемента */
+    padding-left: 25px; /* Отступ для галочки */
+}
 
+.checkmark::before {
+    content: "✔️"; /* Символ галочки */
+    color: green; /* Цвет галочки */
+    position: absolute; /* Позиционирование */
+    left: 0; /* Сдвиг влево */
+}
