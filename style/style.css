@@ -1,8 +1,8 @@
 .start {
-    background: url('../src/maxresdefault.jpg') no-repeat center center; 
+    background: url('../src/index.webp') no-repeat center center; 
     background-size: cover; 
     height: 300px; 
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column; 
     text-align: center; 
@@ -79,7 +79,7 @@
 .pervoe_mesto{
     width: 60vw;
     margin-right: auto;
-    border: 3px solid black;
+    border: 3px solid rgb(105 224 117);
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 10px;
@@ -99,10 +99,10 @@
 
 @media (min-width: 200px) and (max-width: 1200px) {
 .start {
-    background: url('../src/maxresdefault.jpg') no-repeat center center; 
+    background: url('../src/index.webp') no-repeat center center; 
     background-size: cover; 
     height: 300px; 
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     text-align: center; 
@@ -157,12 +157,14 @@
     color: white;}
 .pervoe_mesto{
     width: 75vw;
+    background-color: #f6f6f1;
     margin-left: auto;
-    border: 3px solid black;
+    border: 3px solid rgb(105 224 117);
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 10px;
 }
+
 .dopolnetelno{
     width: 75vw;
     margin-left: auto;
@@ -293,10 +295,15 @@ ul {list-style: none;}
         margin-right: auto;
 
     }
+
+
     .dopolnetelno2{
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+    }
+    table{
+        font-size: 10pt;
     }
 }
 .video-container {
@@ -402,6 +409,25 @@ th{
     height: 300px; 
     margin-bottom: 50px; 
 }
+.restart{
+    background: url('../src/css_weawer.png') no-repeat center center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff; 
+    height: 300px; 
+    margin-bottom: 50px; 
+}
 table {
         font-size: 14pt;
     }
+
+.erstart{
+    background: url('../src/LambdaTest.jpg') no-repeat center center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #8de2cb; 
+    height: 300px; 
+    margin-bottom: 50px; 
+}
