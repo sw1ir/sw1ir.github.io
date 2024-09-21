@@ -432,7 +432,7 @@ table {
     margin-bottom: 50px; 
 }
 .hron {
-    background: url('1560238263.gif') no-repeat center center fixed;
+    background: url('../src/1560238263.gif') no-repeat center center fixed;
     background-size: cover; /* Изменяем на cover для заполнения всего экрана */
     margin: 0;
     padding: 0;
