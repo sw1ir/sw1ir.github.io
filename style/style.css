@@ -388,16 +388,16 @@ th{
     border: 0px 
 }
 .checkmark {
-    list-style-type: none; /* Убираем стандартные маркеры */
-    position: relative; /* Для позиционирования псевдоэлемента */
-    padding-left: 25px; /* Отступ для галочки */
+    list-style-type: none; 
+    position: relative; 
+    padding-left: 25px; 
 }
 
 .checkmark::before {
-    content: "✔️"; /* Символ галочки */
-    color: green; /* Цвет галочки */
-    position: absolute; /* Позиционирование */
-    left: 0; /* Сдвиг влево */
+    content: "✔️"; 
+    color: green; 
+    position: absolute; 
+    left: 0; 
 }
 
 .yyystart{
@@ -430,4 +430,137 @@ table {
     background-color: #8de2cb; 
     height: 300px; 
     margin-bottom: 50px; 
+}
+.hron {
+    background: url('../src/1560238263.gif') no-repeat center center fixed;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    width: 100vw; 
+}
+.home{
+    width: 50px ;
+    height: 50px;
+    margin-left: 48%;
+}
+.custom_nav{
+    width: 100%;
+}
+.me{
+    height: 200px;
+    width: 200px;
+}
+.swir{
+    border-radius: 50%;
+}
+.centize {
+  position: fixed; 
+  top: 40vh; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+.btn_container{
+    position: fixed;
+    height: 500px;
+    width: 250px;
+
+    right: 15%;
+    top: 20%;
+    display: flex; 
+    flex-direction: column; 
+}
+.btn_container2{
+    position: fixed;
+    height: 500px;
+    width: 250px;
+    left: 15%;
+    top: 20%;
+    display: flex; 
+    flex-direction: column; 
+}
+.row2 a, .row3 a {
+    display: flex; 
+    align-items: center; 
+}
+.row3{
+    flex: 1; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+.row2{
+    flex: 1; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+.row3:nth-child(2) {
+    justify-content: center; 
+}
+.row3:nth-child(1) {
+    justify-content: flex-end; 
+}
+.row3:nth-child(3) {
+    justify-content: flex-end; 
+}
+.row2:nth-child(1) {
+    justify-content: flex-start; 
+}
+.row2:nth-child(2) {
+    justify-content: center; 
+}
+.row2:nth-child(3) {
+    justify-content: flex-start; 
+}
+.hol{
+    height: 25px;
+    width: 25px;
+    margin-right: 2px
+}
+@media (max-width: 950px) {
+    .me{
+    height: 150px;
+    width: 150px;
+}
+.home{
+    width: 25px ;
+    height: 25px;
+}
+.centize {
+  position: fixed; 
+  padding: 2vh;
+  padding-bottom: 2vh;
+  height: 30vh;
+  top: 40vh; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+    .btn_container {
+        width: 100%;
+          left: 50%; 
+  transform: translateX(-50%); 
+        position: fixed;
+        height: 25vh;
+        top: 10vh ; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn_container2 {
+        width: 100%;
+          left: 50%; 
+  transform: translateX(-50%); 
+        position: fixed;
+        width: 100%; 
+        height: 25vh;
+        top: 70vh; 
+        right: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+
 }
