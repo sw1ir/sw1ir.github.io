@@ -1,180 +1,191 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="..\style\style.css">
-    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
-    <title>CSS Viewer</title>
-    <style>
-        footer {
-            background-color: #a9a9a9;
-            padding: 20px; 
-            color: white;
-            text-align: center; 
-        }
-  .chot{
-    width: 100 px;
-    height: 25px;
-}
-    </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="..\style\style.css">
+  <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+  <title>CSS Viewer</title>
+  <style>
+    footer {
+      background-color: #a9a9a9;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    
+    .chot {
+      width: 100 px;
+      height: 25px;
+    }
+  </style>
 </head>
+
 <body>
-<header>
+  <header>
     <nav class="nav">
-        <div class="nav-left">
-            <div class="tabs">
-            <a class="" href='BrowserStack.html'>BrowserStack</a>
-            <a class="" href='LightHouse.html'>LightHouse</a>
-            <a class="" href='Colorzilla.html'>Colorzilla</a>
+      <div class="nav-left">
+        <div class="tabs">
+          <a class="" href='BrowserStack.html'>BrowserStack</a>
+          <a class="" href='LightHouse.html'>LightHouse</a>
+          <a class="" href='Colorzilla.html'>Colorzilla</a>
         </div>
-        </div>
-        <div class="nav-center">
-            <a href="..\index.html">
-                <img src="..\src\logo.png" alt="домой">
-            </a>
-        </div>
-        <div class="nav-right">
-            <div class="tabs">
-            <a class="" href='CSSPeeper.html'>CSSPeeper</a>
-            <a class="active" href='CSS Viewer.html'>CSS Viewer</a>
-            <a class="" href='LambdaTest.html'>LambdaTest</a>
-        </div>
-        </div>
-    </nav>
-    <div class = 'header'>
-        <label class="checkbox1"><img src="..\src\menu.png" width="59" height="59" alt="Icon of menu">
-    <input type="checkbox" class="checkbox">
- 
-    <ul class="list">   
-      <li><a href="..\index.html">Главная</a></li>
-      <li><a href="BrowserStack.html">BrowserStack</a></li>
-      <li><a href="LightHouse.html">LightHouse</a></li>
-      <li><a href="Colorzilla.html">Colorzilla</a></li>
-      <li><a href="CSSPeeper.html">CSSPeeper</a></li>
-      <li><a href="CSS Viewer.html">CSS Viewer</a></li>
-      <li><a href="LambdaTest.html">LambdaTest</a></li>
-    </ul> 
-  </label>
-    </div>
-</header>
-
-<main>
-    <div class="restart" id='start'>        
-    </div>
-  <div class='row'>
-    <div class=col-2>
-
-      <div class="category-wrap">
-                    <h2><u>Меню</u></h2>
-                    <ul>
-                      <li><a href="#start">Начало</a></li>
-                        <li><a href="#guide">Гайд</a></li>
-                        <li><a href="#polza">Применение</a></li>
-                        <li><a href="#end">Заключение</a></li>
-                        <li><a href="#tablica">Таблица</a></li>
-                        <li><a href="#video">Смешные котики</a></li>
-
-                    </ul>
-                </div>
-    </div>
-    <div class="col-10">
-    <div class='pochemy' id=start>
-      <p>CSS Viewer</p>
-     <p class='p_text'> полезное расширение, позволяющее идентифицировать свойство CSS в любом месте, одним движением мыши. Расширение позволяет щелкнуть на любое изображение, кнопку, текст и т.д на веб странице, и вы можете увидеть мгновенно используемый код CSS. Появится  небольшое всплывающее окно с данными CSS,  из которых состоит элемент.</p>
-     <p>Ключевые особенности:</p>
-        <p class="p_text">Настройки и плагины обеспечивают быстрой доступ;</p>
-        <p class="p_text">Мгновенно увидеть CSS код;</p>
-        <p class="p_text">Простая установка.(ниже поймете)</p>
       </div>
+      <div class="nav-center">
+        <a href="..\index.html">
+          <img src="..\src\logo.png" alt="домой">
+        </a>
+      </div>
+      <div class="nav-right">
+        <div class="tabs">
+          <a class="" href='CSSPeeper.html'>CSSPeeper</a>
+          <a class="active" href='CSS Viewer.html'>CSS Viewer</a>
+          <a class="" href='LambdaTest.html'>LambdaTest</a>
+        </div>
+      </div>
+    </nav>
+    <div class='header'>
+      <label class="checkbox1"><img src="..\src\menu.png" width="59" height="59" alt="Icon of menu">
+        <input type="checkbox" class="checkbox">
+
+        <ul class="list">
+          <li><a href="..\index.html">Главная</a></li>
+          <li><a href="BrowserStack.html">BrowserStack</a></li>
+          <li><a href="LightHouse.html">LightHouse</a></li>
+          <li><a href="Colorzilla.html">Colorzilla</a></li>
+          <li><a href="CSSPeeper.html">CSSPeeper</a></li>
+          <li><a href="CSS Viewer.html">CSS Viewer</a></li>
+          <li><a href="LambdaTest.html">LambdaTest</a></li>
+        </ul>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div class="restart" id='start'>
+    </div>
+    <div class='row'>
+      <div class=col-2>
+
+        <div class="category-wrap">
+          <h2><u>Меню</u></h2>
+          <ul>
+            <li><a href="#start">Начало</a></li>
+            <li><a href="#guide">Гайд</a></li>
+            <li><a href="#polza">Применение</a></li>
+            <li><a href="#end">Заключение</a></li>
+            <li><a href="#tablica">Таблица</a></li>
+            <li><a href="#video">Смешные котики</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="col-10">
+        <div class='pochemy' id=start>
+          <p>CSS Viewer</p>
+          <p class='p_text'> полезное расширение, позволяющее идентифицировать свойство CSS в любом месте, одним движением мыши. Расширение позволяет щелкнуть на любое изображение, кнопку, текст и т.д на веб странице, и вы можете увидеть мгновенно используемый код CSS. Появится небольшое всплывающее окно с данными CSS, из которых состоит элемент.</p>
+          <p>Ключевые особенности:</p>
+          <p class="p_text">Настройки и плагины обеспечивают быстрой доступ;</p>
+          <p class="p_text">Мгновенно увидеть CSS код;</p>
+          <p class="p_text">Простая установка.(ниже поймете)</p>
+        </div>
         <div class="pochemy_gray" id='guide'>
-            <hr class='vajnoe'>
-            <p>Чтобы воспользоваться расширением, выполните следующие шаги:</p>
-            <p class="p_text">step 1: Посетите программу просмотра CSS в интернет-магазине Chrome или в дополнениях для Firefox.</p>
-            <p class="p_text">step 2: Теперь нажмите кнопку "Добавить в Chrome" или "Добавить в Firefox", в зависимости от используемого вами браузера.</p>
-            <p class="p_text">step 3: Использовать CSS Viewer очень просто, сначала нужно запустить это дополнение, щелкнув по его значку, а затем нажав на кнопку "Пуск".</p>
-            <p class="p_text">step 4: Затем просто наведите указатель мыши на изображение / текст, чтобы просмотреть свойства CSS.</p>
-            <p class="p_text">step end: The end</p>
-            <p class="p_text">Сслыка неа скачивание расширения -> <a href="https://chromewebstore.google.com/detail/css-viewer-для-google-chr/eedfldkdghfkhdcanjnfiklpeehbfoag?hl=ru">Тык</a></p>
+          <hr class='vajnoe'>
+          <p>Чтобы воспользоваться расширением, выполните следующие шаги:</p>
+          <p class="p_text">step 1: Посетите программу просмотра CSS в интернет-магазине Chrome или в дополнениях для Firefox.</p>
+          <p class="p_text">step 2: Теперь нажмите кнопку "Добавить в Chrome" или "Добавить в Firefox", в зависимости от используемого вами браузера.</p>
+          <p class="p_text">step 3: Использовать CSS Viewer очень просто, сначала нужно запустить это дополнение, щелкнув по его значку, а затем нажав на кнопку "Пуск".</p>
+          <p class="p_text">step 4: Затем просто наведите указатель мыши на изображение / текст, чтобы просмотреть свойства CSS.</p>
+          <p class="p_text">step end: The end</p>
+          <p class="p_text">Сслыка неа скачивание расширения -> <a href="https://chromewebstore.google.com/detail/css-viewer-для-google-chr/eedfldkdghfkhdcanjnfiklpeehbfoag?hl=ru">Тык</a></p>
         </div>
         <div class="pochemy" id='polza'>
-            <hr class='skip'>
-            <p><strong>Что может отображать?</strong></p>
-                        <div class="pochemy_gray">
-                <hr class='vajnoe'>
+          <hr class='skip'>
+          <p><strong>Что может отображать?</strong></p>
+          <div class="pochemy_gray">
+            <hr class='vajnoe'>
             <div class="row">
-                <div class='col no-center'>
-                    <ul>
-                        <li class="li_text checkmark">Font size</li>
-                        <li class="li_text checkmark">Font family</li>
-                        <li class="li_text checkmark">Font weight</li>
-                        <li class="li_text checkmark">Line height</li>
-                        <li class="li_text checkmark">Text Color</li>
-                        <li class="li_text checkmark">Background color</li>
-                        <li class="li_text checkmark">text-align</li>
-                    </ul>
-                    </div>    
-                
-                <div class='col no-center'>
-                    <ul>
-                        <li class="li_text checkmark">Border</li>
-                        <li class="li_text checkmark">Margin</li>
-                        <li class="li_text checkmark">Padding</li>
-                        <li class="li_text checkmark">Width</li>
-                        <li class="li_text checkmark">Height</li>
-                        <li class="li_text checkmark">background-position</li>
-                        <li class="li_text checkmark">Word-spacing</li>
-                    </ul> 
-                    </div>
-                </div>
-                </div>
+              <div class='col no-center'>
+                <ul>
+                  <li class="li_text checkmark">Font size</li>
+                  <li class="li_text checkmark">Font family</li>
+                  <li class="li_text checkmark">Font weight</li>
+                  <li class="li_text checkmark">Line height</li>
+                  <li class="li_text checkmark">Text Color</li>
+                  <li class="li_text checkmark">Background color</li>
+                  <li class="li_text checkmark">text-align</li>
+                </ul>
+              </div>
+
+              <div class='col no-center'>
+                <ul>
+                  <li class="li_text checkmark">Border</li>
+                  <li class="li_text checkmark">Margin</li>
+                  <li class="li_text checkmark">Padding</li>
+                  <li class="li_text checkmark">Width</li>
+                  <li class="li_text checkmark">Height</li>
+                  <li class="li_text checkmark">background-position</li>
+                  <li class="li_text checkmark">Word-spacing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-            <div class="pochemy" id='end'>
-                <p><strong>Заключение</strong></p>
-                <hr class='skip'>
-            <p class="p_text">В заключение, CSS Viewer - это очень полезный и умный плагин, который может использоваться веб-разработчиками, поскольку он экономит много времени. Он не только быстр, но и показывает все свойства изображения / текста. Но имейте в виду, что для некоторых расширений требуется разрешение, что иногда приводит к утечкам данных, атакам программ-вымогателей и т.д.</p>
-                </div>
+        <div class="pochemy" id='end'>
+          <p><strong>Заключение</strong></p>
+          <hr class='skip'>
+          <p class="p_text">В заключение, CSS Viewer - это очень полезный и умный плагин, который может использоваться веб-разработчиками, поскольку он экономит много времени. Он не только быстр, но и показывает все свойства изображения / текста. Но имейте в виду, что для некоторых расширений требуется разрешение, что иногда приводит к утечкам данных, атакам программ-вымогателей и т.д.</p>
+        </div>
         <div class='pochemy' id='tablica'>
-        <p>Таблица достоинств и недостатков</p>
-        <table border="1" class="pervoe_mesto">
-        <caption>Таблица +/-</caption>
-        <tr>
-            <th>+</th>
-            <th>-</th>
-        </tr>
-            <tr><td>Полностью бесплатно</td><td>Не обнаружил😅</td></tr>
-            <tr><td>Доступно в РФ</td><td>Не обнаружил😅</td></tr>
-            <tr><td>Легко в использовании</td><td>Не обнаружил😅</td></tr>
-        </table>
-        </div> 
+          <p>Таблица достоинств и недостатков</p>
+          <table border="1" class="pervoe_mesto">
+            <caption>Таблица +/-</caption>
+            <tr>
+              <th>+</th>
+              <th>-</th>
+            </tr>
+            <tr>
+              <td>Полностью бесплатно</td>
+              <td>Не обнаружил😅</td>
+            </tr>
+            <tr>
+              <td>Доступно в РФ</td>
+              <td>Не обнаружил😅</td>
+            </tr>
+            <tr>
+              <td>Легко в использовании</td>
+              <td>Не обнаружил😅</td>
+            </tr>
+          </table>
+        </div>
         <hr class='skip'>
-    <div class="video-container" id="video">
-        <p class='p_text'> Видоса про это расширение не нашел так что смотрим на смешных котиков</p>
-        <iframe width="720" height="405" src="https://rutube.ru/play/embed/972a5e5d9878aa56897f6d06dd744fcb/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></iframe>
-    </div>
- </div>     
+        <div class="video-container" id="video">
+          <p class='p_text'> Видоса про это расширение не нашел так что смотрим на смешных котиков</p>
+          <iframe width="720" height="405" src="https://rutube.ru/play/embed/972a5e5d9878aa56897f6d06dd744fcb/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          </iframe>
+        </div>
+      </div>
 
-
-      
-
-</main>
-<footer>
-  <div class="row">
-    <div class="col-4">
-     <a href="https://www.donationalerts.com/r/sw1r">Поддержать автора</a>
+  </main>
+  <footer>
+    <div class="row">
+      <div class="col-4">
+        <a href="obo_mne.html">Об авторе</a>
+        <br>
+        <a href="https://www.donationalerts.com/r/sw1r">Поддержать автора</a>
+      </div>
+      <div class="col-4">
+        ©2024 sw1r
+      </div>
+      <div class="col-4">
+        made with
+        <a href="https://jenil.github.io/chota/#!">
+          <img src="../src/logo.svg" class="chot">
+        </a>
+      </div>
     </div>
-    <div class="col-4">
-      ©2024 sw1r
-    </div>
-    <div class="col-4">
-      made with
-      <a href="https://jenil.github.io/chota/#!">
-      <img src="../src/logo.svg" class="chot">
-    </a>
-    </div>
-  </div>
-</footer>
+  </footer>
 </body>
-
 
 </html>
