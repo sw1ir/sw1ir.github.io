@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column; 
     text-align: center; 
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: "Brush Script MT, Brush Script Std", cursive;
     font-size: 40pt; 
     align-items: center; 
     margin-bottom: 50px;
@@ -52,8 +52,8 @@
     margin-right: auto; 
     margin-left: auto;
     width: 150px; 
-    border: 2px 
-    box-shadow: 2px 2px 8px #393131;}
+    border: 2px ;
+}
 
 .category-wrap {
     position: sticky;
@@ -83,6 +83,10 @@
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 10px;
+    border-collapse: collapse; /* Опционально, для совместного отображения границ ячеек */
+}
+.pervoe_mesto td, .pervoe_mesto th {
+    border: 3px solid rgb(105 224 117); /* Границы ячеек */
 }
 .mesto_text{
     font-family: Arial, cursive;
@@ -106,7 +110,7 @@
     display: flex;
     flex-direction: column;
     text-align: center; 
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: "Brush Script MT, Brush Script Std", cursive;
     font-size: 25pt; 
     align-items: center;
     margin-bottom: 50px;
@@ -132,7 +136,7 @@
     margin-right: auto; 
     margin-left: auto;
     width: 15vw; 
-    border: 2px 
+    border: 2px; 
     box-shadow: 2px 2px 8px #393131;}
 
 .category-wrap {
@@ -142,8 +146,6 @@
     margin-left: auto;
     width: 15vw; 
     border: 2px  #666;
-
-    background-color: white;
 }
 .category-wrap li {
     margin: 6px 0 0 0px;}
