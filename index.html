@@ -2,51 +2,59 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>С Днём Рождения! 🎉</title>
     <style>
         body {
             margin: 0;
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(45deg, #ff6b6b, #ff9f43, #feca57);
+            background: linear-gradient(135deg, #ff6b6b, #ff9f43, #feca57);
             font-family: 'Comic Sans MS', cursive;
-            overflow: hidden;
+            overflow-x: hidden;
         }
 
         .container {
             text-align: center;
             position: relative;
-            z-index: 1;
+            z-index: 2;
+            padding: 20px;
+            max-width: 90%;
         }
 
         h1 {
-            font-size: 4em;
+            font-size: clamp(2.5rem, 6vw, 4rem);
             color: #fff;
-            text-shadow: 3px 3px 0 #ff4757;
+            text-shadow: 2px 2px 0 #ff4757;
             animation: bounce 2s infinite;
+            margin: 0 0 20px 0;
         }
 
         .message {
-            font-size: 1.5em;
-            color: #2f3542;
-            margin: 20px;
-            line-height: 1.5;
+            font-size: clamp(1.2rem, 3vw, 1.5rem);
+            color: #fff; /* Изменен цвет текста на белый */
+            line-height: 1.4;
+            padding: 15px;
+            border-radius: 15px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Добавлена тень текста */
+            backdrop-filter: blur(2px); /* Легкое размытие фона */
         }
 
         @keyframes bounce {
             0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+            50% { transform: translateY(-10px); }
         }
 
         .confetti {
-            position: absolute;
-            width: 12px;
-            height: 12px;
+            position: fixed;
+            width: 10px;
+            height: 10px;
             clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
             animation: confetti 4s linear infinite;
             top: -50px;
+            z-index: 1;
         }
 
         @keyframes confetti {
@@ -55,8 +63,18 @@
                 opacity: 1;
             }
             100% { 
-                transform: translateY(110vh) translateX(calc(var(--x) * 2)) rotate(720deg) scale(0);
+                transform: translateY(120vh) translateX(calc(var(--x) * 1.5)) rotate(720deg) scale(0);
                 opacity: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            .message {
+                font-size: 1.1rem;
+                padding: 10px;
             }
         }
     </style>
@@ -76,11 +94,11 @@
         function createConfetti() {
             const colors = ['#ff9f43', '#f368e0', '#48dbfb', '#54a0ff', '#2ed573'];
             
-            for (let i = 0; i < 15; i++) {
+            for (let i = 0; i < 10; i++) {
                 const confetti = document.createElement('div');
                 confetti.className = 'confetti';
                 confetti.style.left = `${Math.random() * 100}%`;
-                confetti.style.setProperty('--x', `${Math.random() * 100 - 50}vw`);
+                confetti.style.setProperty('--x', `${Math.random() * 60 - 30}vw`);
                 confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
                 confetti.style.animationDelay = `${Math.random() * 2}s`;
                 document.body.appendChild(confetti);
@@ -89,7 +107,7 @@
             }
         }
 
-        setInterval(createConfetti, 300);
+        setInterval(createConfetti, 400);
         createConfetti();
     </script>
 </body>
